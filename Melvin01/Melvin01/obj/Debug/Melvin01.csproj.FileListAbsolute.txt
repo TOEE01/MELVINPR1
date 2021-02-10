@@ -1,0 +1,10 @@
+C:\Users\recin\Desktop\CARPETAS DE TRABAJO\CICLO III 2021\PROGRAMACION_1\Melvin01\Melvin01\bin\Debug\Melvin01.exe.config
+C:\Users\recin\Desktop\CARPETAS DE TRABAJO\CICLO III 2021\PROGRAMACION_1\Melvin01\Melvin01\bin\Debug\Melvin01.exe
+C:\Users\recin\Desktop\CARPETAS DE TRABAJO\CICLO III 2021\PROGRAMACION_1\Melvin01\Melvin01\bin\Debug\Melvin01.pdb
+C:\Users\recin\Desktop\CARPETAS DE TRABAJO\CICLO III 2021\PROGRAMACION_1\Melvin01\Melvin01\obj\Debug\Melvin01.csprojAssemblyReference.cache
+C:\Users\recin\Desktop\CARPETAS DE TRABAJO\CICLO III 2021\PROGRAMACION_1\Melvin01\Melvin01\obj\Debug\Melvin01.Properties.Resources.resources
+C:\Users\recin\Desktop\CARPETAS DE TRABAJO\CICLO III 2021\PROGRAMACION_1\Melvin01\Melvin01\obj\Debug\Melvin01.Form1.resources
+C:\Users\recin\Desktop\CARPETAS DE TRABAJO\CICLO III 2021\PROGRAMACION_1\Melvin01\Melvin01\obj\Debug\Melvin01.csproj.GenerateResource.cache
+C:\Users\recin\Desktop\CARPETAS DE TRABAJO\CICLO III 2021\PROGRAMACION_1\Melvin01\Melvin01\obj\Debug\Melvin01.csproj.CoreCompileInputs.cache
+C:\Users\recin\Desktop\CARPETAS DE TRABAJO\CICLO III 2021\PROGRAMACION_1\Melvin01\Melvin01\obj\Debug\Melvin01.exe
+C:\Users\recin\Desktop\CARPETAS DE TRABAJO\CICLO III 2021\PROGRAMACION_1\Melvin01\Melvin01\obj\Debug\Melvin01.pdb
