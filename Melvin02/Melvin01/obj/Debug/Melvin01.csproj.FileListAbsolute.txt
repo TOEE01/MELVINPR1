@@ -8,3 +8,6 @@ C:\Users\recin\Desktop\CARPETAS DE TRABAJO\CICLO III 2021\PROGRAMACION_1\Melvin0
 C:\Users\recin\Desktop\CARPETAS DE TRABAJO\CICLO III 2021\PROGRAMACION_1\Melvin01\Melvin01\obj\Debug\Melvin01.csproj.CoreCompileInputs.cache
 C:\Users\recin\Desktop\CARPETAS DE TRABAJO\CICLO III 2021\PROGRAMACION_1\Melvin01\Melvin01\obj\Debug\Melvin01.exe
 C:\Users\recin\Desktop\CARPETAS DE TRABAJO\CICLO III 2021\PROGRAMACION_1\Melvin01\Melvin01\obj\Debug\Melvin01.pdb
+C:\Users\recin\Desktop\CARPETAS DE TRABAJO\CICLO III 2021\PROGRAMACION_1\Melvin01\Melvin01\obj\Debug\Melvin01.VISTA.FrmAcercaDe.resources
+C:\Users\recin\Desktop\CARPETAS DE TRABAJO\CICLO III 2021\PROGRAMACION_1\Melvin01\Melvin01\obj\Debug\Melvin01.VISTA.frmMenu.resources
+C:\Users\recin\Desktop\CARPETAS DE TRABAJO\CICLO III 2021\PROGRAMACION_1\Melvin01\Melvin01\obj\Debug\Melvin01.VISTA.FrmVistaUsuario.resources
