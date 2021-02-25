@@ -1,0 +1,13 @@
+C:\Users\recin\Documents\GitHub\MELVINPR1\Melvin03\Melvin03\obj\Debug\Melvin03.csprojAssemblyReference.cache
+C:\Users\recin\Documents\GitHub\MELVINPR1\Melvin03\Melvin03\obj\Debug\Melvin03.Properties.Resources.resources
+C:\Users\recin\Documents\GitHub\MELVINPR1\Melvin03\Melvin03\obj\Debug\Melvin03.Form1.resources
+C:\Users\recin\Documents\GitHub\MELVINPR1\Melvin03\Melvin03\obj\Debug\Melvin03.VISTA.FrmAcercaDe.resources
+C:\Users\recin\Documents\GitHub\MELVINPR1\Melvin03\Melvin03\obj\Debug\Melvin03.VISTA.frmMenu.resources
+C:\Users\recin\Documents\GitHub\MELVINPR1\Melvin03\Melvin03\obj\Debug\Melvin03.VISTA.FrmVistaUsuario.resources
+C:\Users\recin\Documents\GitHub\MELVINPR1\Melvin03\Melvin03\obj\Debug\Melvin03.csproj.GenerateResource.cache
+C:\Users\recin\Documents\GitHub\MELVINPR1\Melvin03\Melvin03\obj\Debug\Melvin03.csproj.CoreCompileInputs.cache
+C:\Users\recin\Documents\GitHub\MELVINPR1\Melvin03\Melvin03\bin\Debug\Melvin03.exe.config
+C:\Users\recin\Documents\GitHub\MELVINPR1\Melvin03\Melvin03\bin\Debug\Melvin03.exe
+C:\Users\recin\Documents\GitHub\MELVINPR1\Melvin03\Melvin03\bin\Debug\Melvin03.pdb
+C:\Users\recin\Documents\GitHub\MELVINPR1\Melvin03\Melvin03\obj\Debug\Melvin03.exe
+C:\Users\recin\Documents\GitHub\MELVINPR1\Melvin03\Melvin03\obj\Debug\Melvin03.pdb
