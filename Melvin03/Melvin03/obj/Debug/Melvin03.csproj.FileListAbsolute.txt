@@ -11,3 +11,9 @@ C:\Users\recin\Documents\GitHub\MELVINPR1\Melvin03\Melvin03\bin\Debug\Melvin03.e
 C:\Users\recin\Documents\GitHub\MELVINPR1\Melvin03\Melvin03\bin\Debug\Melvin03.pdb
 C:\Users\recin\Documents\GitHub\MELVINPR1\Melvin03\Melvin03\obj\Debug\Melvin03.exe
 C:\Users\recin\Documents\GitHub\MELVINPR1\Melvin03\Melvin03\obj\Debug\Melvin03.pdb
+C:\Users\recin\Documents\GitHub\MELVINPR1\Melvin03\Melvin03\bin\Debug\EntityFramework.dll
+C:\Users\recin\Documents\GitHub\MELVINPR1\Melvin03\Melvin03\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\recin\Documents\GitHub\MELVINPR1\Melvin03\Melvin03\bin\Debug\EntityFramework.xml
+C:\Users\recin\Documents\GitHub\MELVINPR1\Melvin03\Melvin03\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\recin\Documents\GitHub\MELVINPR1\Melvin03\Melvin03\obj\Debug\Melvin03.VISTA.frmUsuarios.resources
+C:\Users\recin\Documents\GitHub\MELVINPR1\Melvin03\Melvin03\obj\Debug\Melvin03.csproj.CopyComplete

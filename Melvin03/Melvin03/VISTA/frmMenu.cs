@@ -30,5 +30,10 @@ namespace Melvin03.VISTA
             view.MdiParent = this;
             view.Show();
         }
+        public String UsuarioEstado;
+        private void frmMenu_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
