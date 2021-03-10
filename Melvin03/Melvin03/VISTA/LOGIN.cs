@@ -1,5 +1,6 @@
 ﻿using Melvin03.DOMINIO;
 using Melvin03.NEGOCIO;
+using Melvin03.VISTA;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -27,11 +28,15 @@ namespace Melvin03
             log.Password = txtPass.Text;
 
             ClsLogin clss = new ClsLogin();
+            
             int variabledeevalucion = clss.acceso(log);
 
             if (variabledeevalucion == 1)
             {
-                MessageBox.Show("welcome");
+                MessageBox.Show("Welcome");
+                frmMenu frm = new frmMenu();
+                frm.UsuarioEstado = txtUser.Text;
+                frm.Show();
                 this.Hide();
 
             }

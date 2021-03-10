@@ -76,6 +76,12 @@
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
     <Compile Include="NEGOCIO\ClsLogin.cs" />
+    <Compile Include="VISTA\FrmOperaciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VISTA\FrmOperaciones.Designer.cs">
+      <DependentUpon>FrmOperaciones.cs</DependentUpon>
+    </Compile>
     <Compile Include="VISTA\frmUsuarios.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -117,6 +123,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="VISTA\FrmOperaciones.resx">
+      <DependentUpon>FrmOperaciones.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="VISTA\frmUsuarios.resx">
       <DependentUpon>frmUsuarios.cs</DependentUpon>
     </EmbeddedResource>

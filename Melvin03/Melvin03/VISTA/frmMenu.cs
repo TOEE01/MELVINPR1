@@ -33,7 +33,35 @@ namespace Melvin03.VISTA
         public String UsuarioEstado;
         private void frmMenu_Load(object sender, EventArgs e)
         {
+            lblUsuario.Text = UsuarioEstado;
+        }
 
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
+
+        private void sumaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmOperaciones fop = new FrmOperaciones();
+            fop.MdiParent = this;
+            fop.btnResta.Enabled = false;
+            fop.Show();
+        }
+
+        private void restaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmOperaciones fop = new FrmOperaciones();
+            fop.MdiParent = this;
+            fop.btnSuma.Enabled = false;
+            fop.Show();
+        }
+
+        private void cRUDToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmUsuarios fus = new frmUsuarios();
+            fus.MdiParent = this;
+            fus.Show();
         }
     }
 }

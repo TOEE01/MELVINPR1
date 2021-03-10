@@ -94,6 +94,7 @@ namespace Melvin03.VISTA
                 MessageBox.Show(Ex.ToString());   
             }
             Carga();
+            clear();
         }
 
         private void label5_Click(object sender, EventArgs e)
@@ -122,8 +123,8 @@ namespace Melvin03.VISTA
                 MessageBox.Show(EX.ToString());
             
             }
-            Carga();  
-
+            Carga();
+            clear();
         }
 
         private void dtVistaUsuario_CellClick(object sender, DataGridViewCellEventArgs e)

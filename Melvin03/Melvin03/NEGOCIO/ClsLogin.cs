@@ -25,8 +25,8 @@ namespace Melvin03.NEGOCIO
                 {
                     estado = 1;
 
-                    frmMenu frm = new frmMenu();
-                    frm.Show();
+                    //frmMenu frm = new frmMenu();
+                    //frm.Show();
 
 
                 }
