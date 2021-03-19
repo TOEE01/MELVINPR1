@@ -38,7 +38,6 @@ namespace Melvin03.VISTA
             this.txtApellidoUsuario = new System.Windows.Forms.TextBox();
             this.txtEdad = new System.Windows.Forms.TextBox();
             this.txtPass = new System.Windows.Forms.TextBox();
-            this.btnActualizar = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.txtid = new System.Windows.Forms.TextBox();
             this.btnEliminar = new System.Windows.Forms.Button();
@@ -53,7 +52,7 @@ namespace Melvin03.VISTA
             // 
             // btnGuardar
             // 
-            this.btnGuardar.Location = new System.Drawing.Point(29, 516);
+            this.btnGuardar.Location = new System.Drawing.Point(170, 516);
             this.btnGuardar.Name = "btnGuardar";
             this.btnGuardar.Size = new System.Drawing.Size(136, 69);
             this.btnGuardar.TabIndex = 0;
@@ -126,16 +125,6 @@ namespace Melvin03.VISTA
             this.txtPass.Size = new System.Drawing.Size(211, 20);
             this.txtPass.TabIndex = 8;
             // 
-            // btnActualizar
-            // 
-            this.btnActualizar.Location = new System.Drawing.Point(485, 516);
-            this.btnActualizar.Name = "btnActualizar";
-            this.btnActualizar.Size = new System.Drawing.Size(142, 69);
-            this.btnActualizar.TabIndex = 9;
-            this.btnActualizar.Text = "Actualizar";
-            this.btnActualizar.UseVisualStyleBackColor = true;
-            this.btnActualizar.Click += new System.EventHandler(this.button2_Click);
-            // 
             // label5
             // 
             this.label5.AutoSize = true;
@@ -148,6 +137,7 @@ namespace Melvin03.VISTA
             // 
             // txtid
             // 
+            this.txtid.Enabled = false;
             this.txtid.Location = new System.Drawing.Point(213, 23);
             this.txtid.Name = "txtid";
             this.txtid.Size = new System.Drawing.Size(211, 20);
@@ -155,7 +145,7 @@ namespace Melvin03.VISTA
             // 
             // btnEliminar
             // 
-            this.btnEliminar.Location = new System.Drawing.Point(250, 516);
+            this.btnEliminar.Location = new System.Drawing.Point(403, 516);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(155, 69);
             this.btnEliminar.TabIndex = 12;
@@ -213,7 +203,6 @@ namespace Melvin03.VISTA
             this.Controls.Add(this.btnEliminar);
             this.Controls.Add(this.txtid);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.btnActualizar);
             this.Controls.Add(this.txtPass);
             this.Controls.Add(this.txtEdad);
             this.Controls.Add(this.txtApellidoUsuario);
@@ -243,7 +232,6 @@ namespace Melvin03.VISTA
         private System.Windows.Forms.TextBox txtApellidoUsuario;
         private System.Windows.Forms.TextBox txtEdad;
         private System.Windows.Forms.TextBox txtPass;
-        private System.Windows.Forms.Button btnActualizar;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox txtid;
         private System.Windows.Forms.Button btnEliminar;

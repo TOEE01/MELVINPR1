@@ -1,4 +1,5 @@
 ﻿
+using Melvin03.DAO;
 using Melvin03.MODEL;
 using System;
 using System.Collections.Generic;
@@ -23,20 +24,17 @@ namespace Melvin03.VISTA
 
         void Carga() {
             dtVistaUsuario.Rows.Clear();
-            using (programacionEntities db = new programacionEntities())
+            ClsDUserList clsDUserList = new ClsDUserList();
+            List<UserList> Lista= clsDUserList.cargarDatosUserList();
+            
+            foreach (var iteracion in Lista)
             {
-
-                var Lista = db.UserList.ToList();
-                foreach (var iteracion in Lista)
-                {
-                    dtVistaUsuario.Rows.Add(iteracion.id,iteracion.NombreUsuario,iteracion.Apellido,iteracion.Edad,iteracion.Pass);
-                }
-                
+                dtVistaUsuario.Rows.Add(iteracion.id, iteracion.NombreUsuario, iteracion.Apellido, iteracion.Edad, iteracion.Pass);
             }
-            
-            
+
+
         }
-        
+
 
         void clear()
         {
@@ -50,27 +48,26 @@ namespace Melvin03.VISTA
 
         private void button1_Click(object sender, EventArgs e)
         {
-            try
-            {
-                using (programacionEntities db = new programacionEntities())
-                {
-
-                    UserList userList = new UserList();
-
-                    userList.NombreUsuario = txtNombreUsuario.Text;
-                    userList.Apellido = txtApellidoUsuario.Text;
-                    userList.Edad = Convert.ToInt32(txtEdad.Text);
-                    userList.Pass = txtPass.Text;
-                    db.UserList.Add(userList);
-                    db.SaveChanges();
-
-                    MessageBox.Show("Save");
-
-                }
+            if (txtid.Text.Equals("")) { 
+            ClsDUserList clsDUserList = new ClsDUserList();
+            //clsDUserList.SaveUserList(txtNombreUsuario.Text,txtApellidoUsuario.Text,Convert.ToInt32(txtEdad.Text),txtPass.Text);
+            UserList userList = new UserList();
+            userList.NombreUsuario = txtNombreUsuario.Text;
+            userList.Apellido = txtApellidoUsuario.Text;
+            userList.Edad = Convert.ToInt32(txtEdad.Text);
+            userList.Pass = txtPass.Text;
+            clsDUserList.SaveUserList(userList);
             }
-            catch (Exception EX)
-            {
-                MessageBox.Show(EX.ToString());
+            else  {
+                ClsDUserList clsDUserList = new ClsDUserList();
+
+                UserList userList = new UserList();
+                userList.id = Convert.ToInt32(txtid.Text);
+                userList.NombreUsuario = txtNombreUsuario.Text;
+                userList.Apellido = txtApellidoUsuario.Text;
+                userList.Edad = Convert.ToInt32(txtEdad.Text);
+                userList.Pass = txtPass.Text;
+                clsDUserList.updateUser(userList);
             }
             Carga();
             clear();
@@ -78,21 +75,7 @@ namespace Melvin03.VISTA
 
         private void button2_Click(object sender, EventArgs e)
         {
-            try {
-                using (programacionEntities db = new programacionEntities()) {
-                    int update = Convert.ToInt32(txtid.Text);
-                    UserList user = db.UserList.Where(x => x.id == update).Select(x => x).FirstOrDefault();
-                    user.NombreUsuario = txtNombreUsuario.Text;
-                    user.Apellido = txtApellidoUsuario.Text;
-                    user.Edad = Convert.ToInt32(txtEdad.Text);
-                    user.Pass = txtPass.Text;
-                    db.SaveChanges();
-
-                }
-            }
-            catch (Exception Ex){
-                MessageBox.Show(Ex.ToString());   
-            }
+       
             Carga();
             clear();
         }
@@ -104,25 +87,9 @@ namespace Melvin03.VISTA
 
         private void btnEliminar_Click(object sender, EventArgs e)
         {
-            try
-            {
-                using (programacionEntities db = new programacionEntities())
+            ClsDUserList user = new ClsDUserList();
+            user.deletedato(Convert.ToInt32(txtid.Text));
 
-                {
-                    int Eliminar = Convert.ToInt32(txtid.Text);
-                    UserList userListt = db.UserList.Where(x => x.id == Eliminar).Select(x => x).FirstOrDefault();
-
-                    //userListt = db.UserList.Find(Eliminar);
-                    db.UserList.Remove(userListt);
-                    db.SaveChanges();
-
-                }
-            }
-            catch (Exception EX)
-            {
-                MessageBox.Show(EX.ToString());
-            
-            }
             Carga();
             clear();
         }

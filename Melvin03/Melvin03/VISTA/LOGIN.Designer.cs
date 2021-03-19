@@ -76,7 +76,7 @@ namespace Melvin03
             this.btn1.Name = "btn1";
             this.btn1.Size = new System.Drawing.Size(75, 23);
             this.btn1.TabIndex = 4;
-            this.btn1.Text = "ESTRAR";
+            this.btn1.Text = "ENTRAR";
             this.btn1.UseVisualStyleBackColor = true;
             this.btn1.Click += new System.EventHandler(this.btn1_Click);
             // 
